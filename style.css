@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 160%;
+    background: #42455a;
+    max-width:1800px;
+    min-width: 1300px;
+}
+.menu ul{
+    
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.menu ul li{
+    display: inline-flex;
+    list-style: none;
+    margin: 0 26px;
+    color: #b2b1b1;
+    cursor: grab;
+}
+
+.active{
+    color: #19dafa !important;
+}
+
+.logo{
+    margin-left: 3%;
+}
+.active{
+    color: #19dafa !important;
+}
+.bborder img{
+    margin-left: 100px; 
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    color: #fff;
+}
+
+.title{
+    margin-left: 10%;
+    background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 35px;
+    
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.onsite{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+}
+
+.name{
+    font-size: 350%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(to right, #f32170,#ffffff, #cf23cf, #eedd44);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    text-align: center;
+}
+.app-text h2{
+    margin-left: 20%;
+}
+.app-text h3{
+    margin-left: 20%;
+}
+.nco{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    text-align: center;
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+
+.app-text p{
+    width: 1000px;
+    font-size: 20px;
+    line-height: 25px;
+    color:rgb(255, 255, 255);
+    margin-left: 20%;
+}
+.app-picture{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 500px;
+}
+.app-picture img{
+    width: 100%;
+    margin-top: 1px;
+    padding-left: -100px;
+    margin-left: 50px;
+}
+
+
+.app-text h4{
+    margin-left: 20%;
+}

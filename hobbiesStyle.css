@@ -1,0 +1,45 @@
+*{
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+      height: 160%;
+      background: #42455a;
+      max-width:1800px;
+      min-width: 1300px;
+  }
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: grab;
+}
+.logo{
+    margin-left: 3%;
+}
+.active{
+    color: #19dafa !important;
+}
+.app-text h1{
+    text-align: center;
+}
+.app-text h3{
+    font-size: 35px;
+    width: 640px;
+    margin-left: 40px;
+    top: 30px;
+    text-decoration: none;
+}
+.gradient-text {
+    background-image: linear-gradient(45deg, rgb(238, 10, 238), rgb(153, 208, 245));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    
+}
